@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lars-quaedvlieg
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - lars-quaedvlieg/Reinforcement-Learning-Book
+  - lars-quaedvlieg/Project-2.1-Risk

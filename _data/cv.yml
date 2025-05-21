@@ -2,96 +2,265 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Lars Quaedvlieg
+    - name: Title
+      value: Research Scientist Intern & Research Assistant
     - name: Languages
-      value: English, German
+      value: English (C2), Dutch (C2), German (B1), French (A2)
+    - name: Programming Languages
+      value: Python, Java, Flutter, SQL, MATLAB, R, C, C++, JavaScript, PHP
+    - name: Tools
+      value: Jax, Haiku, Optax, Flax, PyTorch, Hydra, Neptune
+
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Machine Learning
+#      items:
+#        - Deep Reinforcement Learning
+#        - Hierarchical Reinforcement Learning
+#        - Graph Representational Learning
+#    - title: Planning algorithms
+- title: Research Interests
+  type: list
+  contents:
+    - Foundation Models
+    - Reinforcement Learning
+    - AI for Science
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Data Science
+      institution: <a href="https://www.epfl.ch/education/master/programs/data-science/">École Polytechnique Fédérale de Lausanne</a> (EPFL) - Lausanne, Switzerland
+      year: Sep '22 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - 5.7/6.0 GPA
+        - title: Relevant Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - (CS-503) Visual Intelligence
+            - (CS-456) Reinforcement Learning
+            - (EE-452) Network Machine Learning
+            - (COM-490) Large-Scale Data Science For Real-World Data
+#            - (HUM-433) How People Learn II
+            - (MATH-413) Statistics for Data Science
+            - "(EE-556) Mathematics of Data: from Theory to Computation"
+            - (CS-430) Intelligent Agents
+            - (CS-433) Machine Learning
+#            - (HUM-432) How People Learn
+    - title: BSc in Data Science and Artificial Intelligence
+      institution: <a href="https://curriculum.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence">Maastricht University</a> - Maastricht, The Netherlands
+      year: Sep '19 - Jul '22
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated summa cum laude, 9.5/10 GPA
+        - Ranked 1st out of 104 students within a similar cohort
+        - Rewarded 9.5/10 for bachelor thesis "Multi-Agent Reinforcement Learning with Graph Neural Networks for Online Multi-Hoist Scheduling"
+        - Audited graduate-level courses at the department
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Caglar Gulcehre Lab for AI Research @ EPFL - Lausanne, Switzerland
+      year: Oct '23 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - '<b>Skills:</b> Large Language Models, State-Space Models, Reinforcement Learning'
+        - title: Projects
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Supervised by <a href="https://scholar.google.ca/citations?user=7hwJ2ckAAAAJ">Prof. Dr. Caglar Gulcehre
+              </a>
+            - Working on foundation models for decision-making problems, specifically on efficient RL for long-horizon problems with algorithm distillation (In progress)
+    - title: Research Intern
+      institution: <a href="https://www.instadeep.com/">InstaDeep</a> - Paris, France
+      year: July '23 - Jan '24
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - <b>Skills:</b> Jax, Transformers, Variational Auto-Encoders, Offline Reinforcement Learning, HDF5, Google Cloud Platform
+        - Pre-training Transformer models on a large offline <a href=https://research.google/resources/datasets/dqn-replay/>reinforcement learning dataset</a> (1+ billion transitions) of the classic Atari benchmark. The goal is to easily fine-tune reinforcement learning agents for downstream tasks using this pre-trained model
+    - title: Research Assistant (Unofficial)
+      institution: <a href="https://www.epfl.ch/labs/lions/">Laboratory for Information and Inference Systems</a> @ EPFL - Lausanne, Switzerland
+      year: Nov '22 - Oct '23
       description:
+        - '<b>Skills:</b> Python, reinforcement learning, graph neural networks, combinatorial optimization, scheduling'
+        - title: Projects
+          contents:
+            - Supervised by <a href="https://scholar.google.com/citations?user=hlWhzU8AAAAJ">Prof. Dr. Volkan Cevher</a>, <a href="https://scholar.google.com/citations?user=1bU041kAAAAJ&hl=en">Dr. Grigorios G. Chrysos</a>, and <a href="https://scholar.google.com/citations?user=Juo2Tk8AAAAJ&hl=el">Dr. Stratis Skoulakis
+              </a>
+            - Co-authored a paper about self-supervised learning for combinatorial optimization problems (in submission)
+            - Currently working on a project about hospital staff scheduling using deep reinforcement learning and graph neural networks
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: AI Research Intern
+      institution: <a href="https://www.aucos.de/en/home-2/">Aucos AG</a> - Aachen, Germany
+      year: Feb '21 - Aug '22
+      description:
+        - '<b>Skills:</b> Python, computer vision, planning, graph representational learning, (multi-agent) reinforcement learning'
+        - title: Projects
+          contents:
+          - Developed a pipeline for multi-camera multi-object tracking through production lines
+          - Designed and created software for generating optimal production plant schematics
+          - Devised an approach for optimizing the throughput of production lines
 
-- title: Open Source Projects
+- title: Awards and Honours
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Talent bursary, Alberta Machine Intelligence Institute
+      year: May '24
+      description:
+        - Bursary, valued at 2,750 CAD, awarded to talented academics for travelling to Edmonton, Alberta for the <a href="https://www.upperbound.ai/">Upper Bound conference</a>
+    - title: Research Scholar Assistant
+      year: Feb '24 - Feb '25
+      description:
+        - "Highly competitive research program. I will be working part-time at the Caglar Gulcerhe's Lab for AI Research (CLAIRE) from February 2024 until January 2025. <a href='https://www.epfl.ch/schools/ic/education/master/research-scholars/'>Link to the scholar programme</a>"
+    - title: Scholar Award, NeurIPS
+      year: Dec '23
+      description:
+        - Travel award, valued at approximately 2,500 USD, covering registration and hotel costs to come to NeurIPS 2023 in-person
+    - title: Master's Excellence Fellowship, EPFL
+      year: Sep '22 - Sep '24
+      description:
+        - Two-year fellowship valued at 40,000 CHF, awarded to ~3% of EPFL master students based on outstanding academic records
+    - title: CS-503 Visual Intelligence Best Project Award
+      year: Jul '23
+      description:
+        - "<b>Hunting for Insights: Investigating Predator-Prey Dynamics through Simulated Vision and Reinforcement Learning</b>"
+        - Secured first place among 14 teams, winning a free conference registration. <a href="https://arvind6599.github.io/PredatorPreyWebsite/">Link to project</a>
+    - title: Best Bachelor's Thesis Award 2023, Maastricht University
+      year: Nov '22
+      description:
+        - <a href="https://www.maastrichtuniversity.nl/lars-quaedvlieg">https://www.maastrichtuniversity.nl/lars-quaedvlieg</a>
+        - University-wide award valued at 500 EUR for the best bachelor's thesis research among all other students in the programme
+    - title: Honours Student, Maastricht University
+      year: Feb '21 - Aug '22
+      description:
+        - Participation in the KE@Work honours programme, a part-time research internship in industry alongside the bachelor's programme
 
-- title: Honors and Awards
+- title: Extracurricular Activities
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Public Relations Manager
+      institution: EPFL Google Developer Student Club - Lausanne, Switzerland
+      year: Sep '22 - March '23
+      description:
+        - Bridging the gap between theory and practice by giving the students a platform to develop their projects and participate in workshops, seminars, hackathons, and more
+    - title: Student Representative
+      institution: Department of Advanced Computing Sciences - Maastricht, The Netherlands
+      year: Sep '20 - Sep '22
+      description:
+        - One of two student representatives of 800, responsible for raising students' issues, ensuring program quality by renewing study material, extending the curriculum by adding new courses, and looking into internal regulations of the bachelor program
+    - title: Board Member
+      institution: MSV Incognito - Maastricht, The Netherlands
+      year: Jul '20 - Jul '22
+      description:
+        - Treasurer, secretary, and community manager at a department-wide study association comprised of 800 members. Organized educational and social events, and launched a series of on line sessions with academic and industry researchers
+    - title: Tutor (Co-Founder)
+      institution: Inforca - Heerlen, The Netherlands
+      year: Sep '18 - Jul '22
+      description:
+        - Tutoring and hosting group exam-preparation sessions for undergraduate students in computer science- and mathematics-related topics
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: References
+#  type: list
+#  contents:
+#    - <b><a href="https://scholar.google.com/citations?user=cxRqeVwAAAAJ">Prof. Dr. Karl Tuyls</a></b>       |  Google DeepMind & University of Liverpool
+#    - <b><a href="https://scholar.google.com/citations?user=Juo2Tk8AAAAJ">Dr. Stratis Skoulakis</a></b> |  EPFL
+#    - <b><a href="https://scholar.google.com/citations?user=3TofHnIAAAAJ">Prof. Dr. Gerhard B. Weiss</a></b> |  Maastricht University
+#    - <b><a href="https://scholar.google.com/citations?user=OxPUGmwAAAAJ">Prof. Dr. Frank Thuijsman</a></b>  |  Maastricht University
+#    - <b><a href="https://scholar.google.com/citations?user=57dQcbgAAAAJ">Prof. Dr. Rico Möckel</a></b> | Maastricht University
+#    - <b><a href="https://scholar.google.com/citations?user=4PexEGMAAAAJ">Prof. Dr. Mirela Popa</a></b> | Maastricht University
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: PhD
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1905
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Federal teaching diploma
+#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#       year: 1900
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Professor of Theoretical Physics
+#       institution: Institute for Advanced Study, Princeton University
+#       year: 1933 - 1955
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Visiting Professor
+#       institution: California Institute of Technology, Pasadena, California, US
+#       year: 1933
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+#     - title: Director
+#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#       year: 1917-1933
+
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
+
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -1,4 +1,70 @@
+@article{surina2025algorithm,
+  title={Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning},
+  author={Surina, Anja and Mansouri, Amin and <b>Quaedvlieg</b>, <b>Lars</b> and Seddas, Amal and Viazovska, Maryna and Abbe, Emmanuel and Gulcehre, Caglar},
+  abstract={Discovering efficient algorithms for solving complex problems has been an outstanding challenge in mathematics and computer science, requiring substantial human expertise over the years. Recent advancements in evolutionary search with large language models (LLMs) have shown promise in accelerating the discovery of algorithms across various domains, particularly in mathematics and optimization. However, existing approaches treat the LLM as a static generator, missing the opportunity to update the model with the signal obtained from evolutionary exploration. In this work, we propose to augment LLM-based evolutionary search by continuously refining the search operator - the LLM - through reinforcement learning (RL) fine-tuning. Our method leverages evolutionary search as an exploration strategy to discover improved algorithms, while RL optimizes the LLM policy based on these discoveries. Our experiments on three combinatorial optimization tasks - bin packing, traveling salesman, and the flatpack problem - show that combining RL and evolutionary search improves discovery efficiency of improved algorithms, showcasing the potential of RL-enhanced evolutionary strategies to assist computer scientists and mathematicians for more efficient algorithm design.},
+  journal={arXiv preprint arXiv:2504.05108},
+  year={2025},
+  month={April},
+  pdf={https://arxiv.org/pdf/2504.05108},
+  selected={true},
+  preview={evotune.png}
+}
+
+@article{quaedvlieg2025optimizing,
+  title={Optimizing Job Allocation using Reinforcement Learning with Graph Neural Networks},
+  author={<b>Quaedvlieg</b>, <b>Lars</b>},
+  abstract={Efficient job allocation in complex scheduling problems poses significant challenges in real-world applications. In this report, we propose a novel approach that leverages the power of Reinforcement Learning (RL) and Graph Neural Networks (GNNs) to tackle the Job Allocation Problem (JAP). The JAP involves allocating a maximum set of jobs to available resources while considering several constraints. Our approach enables learning of adaptive policies through trial-and-error interactions with the environment while exploiting the graph-structured data of the problem. By leveraging RL, we eliminate the need for manual annotation, a major bottleneck in supervised learning approaches. Experimental evaluations on synthetic and real-world data demonstrate the effectiveness and generalizability of our proposed approach, outperforming baseline algorithms and showcasing its potential for optimizing job allocation in complex scheduling problems.},
+  journal={arXiv preprint arXiv:2501.19063},
+  year={2025},
+  month={January},
+  pdf={https://arxiv.org/pdf/2501.19063},
+  selected={true},
+  preview={job_allocation.png}
+}
+
+@article{boige2023pasta,
+      title={PASTA: Pretrained Action-State Transformer Agents},
+      author={Boige*, Raphael and Flet-Berliac*, Yannis and <b>Quaedvlieg</b>, <b>Lars</b> and Flajolet, Arthur and Richard, Guillaume and Pierrot, Thomas},
+      abstract={Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pre-training transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks. In reinforcement learning, researchers have recently adapted these approaches, developing models pre-trained on expert trajectories. This advancement enables the models to tackle a broad spectrum of tasks, ranging from robotics to recommendation systems. However, existing methods mostly rely on intricate pre-training objectives tailored to specific downstream applications. This paper conducts a comprehensive investigation of models, referred to as pre-trained action-state transformer agents (PASTA). Our study covers a unified methodology and covers an extensive set of general downstream tasks including behavioral cloning, offline RL, sensor failure robustness, and dynamics change adaptation. Our objective is to systematically compare various design choices and offer valuable insights that will aid practitioners in developing robust models. Key highlights of our study include tokenization at the component level for actions and states, the use of fundamental pre-training objectives such as next token prediction or masked language modeling, simultaneous training of models across multiple domains, and the application of various fine-tuning strategies. In this study, the developed models contain fewer than 7 million parameters allowing a broad community to use these models and reproduce our experiments. We hope that this study will encourage further research into the use of transformers with first principle design choices to represent RL trajectories and contribute to robust policy learning.},
+      journal={Reinforcement Learning Journal,},
+      volume={3},
+      pages={1511-1532},
+      year={2024},
+      month={Aug},
+      pdf={https://rlj.cs.umass.edu/2024/papers/RLJ_RLC_2024_191.pdf},
+      selected={true},
+      preview={pasta.png},
+      abbr={RLC},
+}
+
+@article{quaedvlieg2023misdp,
+  title={Maximum Independent Set: Self-Training through Dynamic Programming},
+  author={<b>Quaedvlieg</b>*, <b>Lars</b> and Brusca*, L. and Skoulakis, S. and Chrysos, G. and Cevher, V.},
+  abstract={This work presents a novel graph neural network (GNN) framework for solving the maximum independent set (MIS) inspired by dynamic programming (DP). Specifically, given a graph, we propose a DP-like recursive algorithm based on GNNs that firstly constructs two smaller sub-graphs,  predicts the one with the larger MIS, and then uses it in the next recursive call.  To train our algorithm, we require annotated comparisons of different graphs concerning their MIS size. Annotating the comparisons with the output of our algorithm leads to a self-training process that results in more accurate self-annotation of the comparisons and vice versa. We provide numerical evidence showing the superiority of our method vs prior methods in multiple synthetic and real-world datasets.},
+  journal={Advances in Neural Information Processing Systems (NeurIPS),},
+  year={2023},
+  month={July},
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/file/7fe3170d88a8310ca86df2843f54236c-Paper-Conference.pdf},
+  selected={true},
+  preview={mis_us.png},
+  abbr={NeurIPS},
+}
+
+
+@article{quaedvlieg2022marl,
+  title={Multi-Agent Reinforcement Learning with Graph Neural Networks for Online Multi-Hoist Scheduling},
+  author={<b>Quaedvlieg</b>, <b>Lars</b>},
+  abstract={This thesis explores an approach to solving the online multi-hoist scheduling problem by combining graph neural networks and multi-agent reinforcement learning. It approaches the problem by creating two sets of agents: source agents and hoists. When requested, a source agent selects a job from a queue of jobs in a source station to give to hoists. The hoists are responsible for picking up and dropping off jobs at stations, and coordinate with each other to avoid scenarios that would result in a deadlock. The devised algorithms are trained and benchmarked against other approaches, such as random and heuristic algorithms. Further insights into the methods are obtained from an analysis using dimensionality reduction on neural activations of the environment states. The results indicate that deadlocks are avoided in all experimental results. Furthermore, the approach in this thesis outperforms the other approaches in the benchmark by 7.50% to 10%. By analyzing the neural activations, it is shown that the hoist agents estimate that situations with many jobs being processed yield a higher job throughput than situations with less. Further research into the overall approach is recommended, but the results show potential to perform well against other approaches in existing literature.},
+  journal={Bachelor's Thesis,},
+  year={2022},
+  month={July},
+  pdf={bsc_thesis.pdf},
+  selected={true},
+  preview={bsc_thesis.png}
+}
+
 ---
+Examples below
 ---
 
 @string{aps = {American Physical Society,}}

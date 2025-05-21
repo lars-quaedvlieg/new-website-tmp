@@ -12,7 +12,12 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        {% if project.developed_date %}
+          <span class="badge stylish-color text-uppercase align-middle" style="min-width: 75px;">
+                {{ project.developed_date | date: "%b %-d, %Y" }}
+          </span>
+        {% endif %}
+        <h4 class="card-title">{{ project.title }}</h4>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}

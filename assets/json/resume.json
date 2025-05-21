@@ -1,200 +1,262 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Lars Quaedvlieg",
+    "label": "Research Scientist Intern",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "phone": "",
+    "summary": "Research Scientist Intern at Meta with expertise in Foundation Models, Reinforcement Learning, and AI for Science",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "London",
+      "countryCode": "GB",
+      "region": "United Kingdom"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "lars_quaedvlieg",
+        "url": "https://twitter.com/lars_quaedvlieg"
       }
-    ]
+      ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Caglar Gulcehre Lab for AI Research @ EPFL",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2023-10-01",
+      "endDate": "present",
+      "summary": "Working on foundation models for decision-making problems, specifically on efficient RL for long-horizon problems with algorithm distillation",
+      "highlights": ["Large Language Models", "State-Space Models", "Reinforcement Learning"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "InstaDeep",
+      "position": "Research Intern",
+      "url": "https://www.instadeep.com/",
+      "startDate": "2023-07-01",
+      "endDate": "2024-01-01",
+      "summary": "Pre-training Transformer models on a large offline reinforcement learning dataset (1+ billion transitions) of the classic Atari benchmark",
+      "highlights": ["Jax", "Transformers", "Variational Auto-Encoders", "Offline Reinforcement Learning", "HDF5", "Google Cloud Platform"]
+    },
+    {
+      "name": "Laboratory for Information and Inference Systems @ EPFL",
+      "position": "Research Assistant (Unofficial)",
+      "url": "https://www.epfl.ch/labs/lions/",
+      "startDate": "2022-11-01",
+      "endDate": "2023-10-01",
+      "summary": "Co-authored a paper about self-supervised learning for combinatorial optimization problems and worked on hospital staff scheduling using deep reinforcement learning and graph neural networks",
+      "highlights": ["Python", "Reinforcement Learning", "Graph Neural Networks", "Combinatorial Optimization", "Scheduling"]
+    },
+    {
+      "name": "Aucos AG",
+      "position": "AI Research Intern",
+      "url": "https://www.aucos.de/en/home-2/",
+      "startDate": "2021-02-01",
+      "endDate": "2022-08-01",
+      "summary": "Developed solutions for production line optimization and multi-camera tracking",
+      "highlights": ["Python", "Computer Vision", "Planning", "Graph Representational Learning", "Multi-agent Reinforcement Learning"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "location": "Lausanne,<br> Switzerland",
+      "url": "https://www.epfl.ch/education/master/programs/data-science/",
+      "area": "Data Science",
+      "studyType": "MSc",
+      "startDate": "2022-09-01",
+      "endDate": "present",
+      "score": "5.7/6.0",
+      "courses": [
+        "Visual Intelligence",
+        "Reinforcement Learning",
+        "Network Machine Learning",
+        "Large-Scale Data Science For Real-World Data",
+        "Statistics for Data Science",
+        "Mathematics of Data: from Theory to Computation",
+        "Intelligent Agents",
+        "Machine Learning"
+      ]
+    },
+    {
+      "institution": "Maastricht University",
+      "location": "Maastricht,<br> The Netherlands",
+      "url": "https://curriculum.maastrichtuniversity.nl/education/bachelor/data-science-and-artificial-intelligence",
+      "area": "Data Science and Artificial Intelligence",
+      "studyType": "BSc",
+      "startDate": "2019-09-01",
+      "endDate": "2022-07-01",
+      "score": "9.5/10",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Winner - Mini-Hackathon on Multimodal Apps and Training LLMs",
+      "date": "2024-05-01",
+      "awarder": "LauzHack Association",
+      "summary": "Won the Organizer's prize for <a href='https://devpost.com/software/tralala'>Tralala</a>, a tool that enables users to generate and refine 3D models dynamically using natural inputs like text prompts, spoken descriptions, or reference images"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Winner - LauzHack 2025",
+      "date": "2024-05-01",
+      "awarder": "LauzHack Association",
+      "summary": "Second place in LauzHack 2025. Developed an on-device Flask-based web <a href='https://github.com/lars-quaedvlieg/chronica'>application</a> for creating, managing, and visualizing notes effectively and securely using RAG and LLM models"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Winner - HackUPC 2024",
+      "date": "2024-05-01",
+      "awarder": "Polytechnic University of Catalonia",
+      "summary": "Won [MLH] Best Use of Taipy and Intersystems Challenge - Best use of GenAI using InterSystems IRIS Vector Search for WALL-M, an <a href='https://devpost.com/software/wall-m'>AI-powered email assistant</a>"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Research Scholar Assistant",
+      "date": "2024-02-01",
+      "awarder": "EPFL",
+      "summary": "Highly competitive research program at the Caglar Gulcerhe's Lab for AI Research (CLAIRE)"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Master's Excellence Fellowship, EPFL",
+      "date": "2022-09-01",
+      "awarder": "EPFL",
+      "summary": "Two-year fellowship valued at 40,000 CHF, awarded to ~3% of EPFL master students based on outstanding academic records"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "CS-503 Visual Intelligence Best Project Award",
+      "date": "2023-07-01",
+      "awarder": "EPFL",
+      "summary": "Secured first place among 14 teams for project 'Hunting for Insights: Investigating Predator-Prey Dynamics through Simulated Vision and Reinforcement Learning'"
+    },
+    {
+      "title": "Best Bachelor's Thesis Award 2023",
+      "date": "2022-11-01",
+      "awarder": "Maastricht University",
+      "summary": "University-wide award valued at 500 EUR for the best bachelor's thesis research among all other students in the programme"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-04-01",
+      "url": "https://arxiv.org/pdf/2504.05108",
+      "summary": "Discovering efficient algorithms for solving complex problems has been an outstanding challenge in mathematics and computer science, requiring substantial human expertise over the years. Recent advancements in evolutionary search with large language models (LLMs) have shown promise in accelerating the discovery of algorithms across various domains, particularly in mathematics and optimization."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Optimizing Job Allocation using Reinforcement Learning with Graph Neural Networks",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-01-01",
+      "url": "https://arxiv.org/pdf/2501.19063",
+      "summary": "Efficient job allocation in complex scheduling problems poses significant challenges in real-world applications. In this report, we propose a novel approach that leverages the power of Reinforcement Learning (RL) and Graph Neural Networks (GNNs) to tackle the Job Allocation Problem (JAP)."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "PASTA: Pretrained Action-State Transformer Agents",
+      "publisher": "Reinforcement Learning Journal",
+      "releaseDate": "2024-08-01",
+      "url": "https://rlj.cs.umass.edu/2024/papers/RLJ_RLC_2024_191.pdf",
+      "summary": "Self-supervised learning has brought about a revolutionary paradigm shift in various computing domains, including NLP, vision, and biology. Recent approaches involve pre-training transformer models on vast amounts of unlabeled data, serving as a starting point for efficiently solving downstream tasks."
+    },
+    {
+      "name": "Maximum Independent Set: Self-Training through Dynamic Programming",
+      "publisher": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "releaseDate": "2023-07-01",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7fe3170d88a8310ca86df2843f54236c-Paper-Conference.pdf",
+      "summary": "This work presents a novel graph neural network (GNN) framework for solving the maximum independent set (MIS) inspired by dynamic programming (DP)."
+    },
+    {
+      "name": "Multi-Agent Reinforcement Learning with Graph Neural Networks for Online Multi-Hoist Scheduling",
+      "publisher": "Bachelor's Thesis",
+      "releaseDate": "2022-07-01",
+      "url": "bsc_thesis.pdf",
+      "summary": "This thesis explores an approach to solving the online multi-hoist scheduling problem by combining graph neural networks and multi-agent reinforcement learning."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Expert",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "Flutter",
+        "SQL",
+        "MATLAB",
+        "R",
+        "C",
+        "C++",
+        "JavaScript",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "level": "Expert",
+      "keywords": [
+        "Jax",
+        "Haiku",
+        "Optax",
+        "Flax",
+        "PyTorch",
+        "Hydra",
+        "Neptune"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English",
+      "fluency": "C2"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Dutch",
+      "fluency": "C2"
+    },
+    {
+      "language": "German",
+      "fluency": "B1"
+    },
+    {
+      "language": "French",
+      "fluency": "A2"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Foundation Models",
+        "Reinforcement Learning",
+        "AI for Science"
       ]
     }
   ],
-  "references": [
+  "volunteer": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "organization": "EPFL Google Developer Student Club",
+      "position": "Public Relations Manager",
+      "startDate": "2022-09-01",
+      "endDate": "2023-03-01",
+      "summary": "Bridging the gap between theory and practice by giving the students a platform to develop their projects and participate in workshops, seminars, hackathons, and more"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "organization": "Department of Advanced Computing Sciences",
+      "position": "Student Representative",
+      "startDate": "2020-09-01",
+      "endDate": "2022-09-01",
+      "summary": "One of two student representatives of 800, responsible for raising students' issues, ensuring program quality by renewing study material, extending the curriculum by adding new courses, and looking into internal regulations of the bachelor program"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "organization": "MSV Incognito",
+      "position": "Board Member",
+      "startDate": "2020-07-01",
+      "endDate": "2022-07-01",
+      "summary": "Treasurer, secretary, and community manager at a department-wide study association comprised of 800 members"
+    },
+    {
+      "organization": "Inforca",
+      "position": "Tutor (Co-Founder)",
+      "startDate": "2018-09-01",
+      "endDate": "2022-07-01",
+      "summary": "Tutoring and hosting group exam-preparation sessions for undergraduate students in computer science- and mathematics-related topics"
     }
   ]
 }
